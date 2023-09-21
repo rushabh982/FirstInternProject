@@ -1,5 +1,6 @@
 <?php
 include "../shared/authguard_vendor.php";
+include "menu.html";
 ?>
 
 <!DOCTYPE html>

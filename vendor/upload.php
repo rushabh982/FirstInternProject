@@ -13,6 +13,7 @@ $status=mysqli_query($conn,"insert into product(name,price,details,code,category
 if($status)
 {
     echo "Product Uploaded Successfully";
+    header("location:home.php");
 }
 else
 {
